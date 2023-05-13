@@ -2,7 +2,7 @@ const depositTypeSelector = document.getElementById("depositTypeSelector");
 const depositdurationSelector = document.getElementById("depositdurationSelector");
 const calculateButton = document.getElementById("calculateButton");
 const depositeSizeInput = document.getElementById("depositeSizeInput");
-const output = document.getElementById("output");
+const output = document.getElementById("outputBox");
 
 document.addEventListener('DOMContentLoaded', function () {
 
