@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Задание 3</title>
+    
+		<script src="bundle.js"></script>
+        <script src="depositСalculator.js"></script>
+</head>
+
+<body>
+    <ul>
+        <li>            
+            <a href="index.html">Главная страница</a>
+        </li>
+    </ul>
+    <h3>Калькулятор вкладов</h6>
+        <div class="container">
+            <div class="left-column">
+                <select id="depositTypeSelector">
+                    <option value="" disabled selected>Выберите элемент из списка</option>
+                    <option value="option1">Пополняемый</option>
+                    <option value="option2">Срочный</option>
+                </select>
+                <select id="depositdurationSelector" aria-placeholder="Выберете тип вклада">
+                    <option value="" disabled selected>Выберите элемент из списка</option>
+                </select>
+                <input type="number" id="depositeSizeInput" placeholder="Введите сумму вклада" step="100" min="0"
+                    max="99999999">
+                <button id="calculateButton">Рассчитать</button>
+            </div>
+            <div class="right-column">
+                <div id="outputBox">Для вычисления возврата по депозиту введите данные и нажмите кнопку рассчитать
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
