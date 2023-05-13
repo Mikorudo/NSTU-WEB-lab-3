@@ -18,7 +18,7 @@ module.exports = {
       maxEntrypointSize: 512000
     },
     devServer: {
-        compress: true, // Сжатие файлов при отображении на лок сервере
+        compress: true,
         hot: true, // горячая перезагрузка
         static: {
             directory: path.join(__dirname, 'build')
@@ -28,7 +28,7 @@ module.exports = {
         rules: [
             {
                 test: /\.css$/,
-                use: [ 'style-loader', 'css-loader' ]
+                use: [ 'style-loader', 'css-loader', 'sass-loader' ]
             },
             {
                 test: /\.(js)$/,
