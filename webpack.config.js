@@ -28,7 +28,7 @@ module.exports = {
         rules: [
             {
                 test: /\.css$/,
-                use: [ 'style-loader', 'css-loader', 'sass-loader' ]
+                use: [ 'style-loader', 'css-loader',  ]
             },
             {
                 test: /\.(js)$/,
@@ -56,6 +56,10 @@ module.exports = {
         new HtmlWebpackPlugin({
           filename: 'task 3.html',
           template: './src/task 3.html',
+        }),
+        new HtmlWebpackPlugin({
+          filename: 'task 4.html',
+          template: './src/task 4.html',
         }),
         new webpack.ProvidePlugin({
           $: 'jquery',

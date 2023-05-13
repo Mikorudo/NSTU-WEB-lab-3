@@ -29,8 +29,9 @@
     text-align: center;
     display: flex;
     align-items: center;
+    justify-content: center;
     border: 1px solid black;
-    margin: 20px;
+    margin: 20px auto;
     padding: 30px;
     width: 500px;
     height: 200px;

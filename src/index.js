@@ -1,13 +1,22 @@
+// Скрипты
 const slider = require('./js/slider')
 const depositСalculator = require('./js/depositСalculator')
+const hhAPI = require('./js/hhAPI')
 
-import $ from 'jquery';
-import './style/slick/slick.min.js'
+// Стили
 import './style/align.css'
+import './style/vacancy.css'
+
+// Слайдер
+import $ from 'jquery';
 import './style/slick/slick.css'
 import './style/slick/slick-theme.css'
+import './style/slick/slick.min.js'
+
+// Калькулятор
 import './style/calculator.css'
 
+// Изображения
 import calculatorDesktop1 from './assets/calculatorDesktop1.png';
 import calculatorDesktop2 from './assets/calculatorDesktop2.png'
 import calculatorMobile1 from './assets/calculatorMobile1.png'

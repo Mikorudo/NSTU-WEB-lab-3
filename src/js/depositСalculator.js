@@ -2,7 +2,7 @@ const depositTypeSelector = document.getElementById("depositTypeSelector");
 const depositdurationSelector = document.getElementById("depositdurationSelector");
 const calculateButton = document.getElementById("calculateButton");
 const depositeSizeInput = document.getElementById("depositeSizeInput");
-const outputBox = document.getElementById("outputBox");
+const output = document.getElementById("output");
 
 document.addEventListener('DOMContentLoaded', function () {
 
@@ -131,7 +131,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             + " на срок " + durationTxt
                             + " позволит получить " + (interestRate * 100) + "% годовых."
                             + " Итого по истечению срока вы получите: " + result + ".";
-            outputBox.textContent = outputText;
+            output.textContent = outputText;
         } catch (error) {
             alert("Проверьте заполнение полей");
         }

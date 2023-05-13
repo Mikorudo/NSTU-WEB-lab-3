@@ -1,0 +1,33 @@
+.vacancy {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+    box-shadow: 2px 2px 2px #ccc;
+    border-radius: 5px;
+  }
+  
+  .vacancy h2 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .vacancy p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .vacancy .requirement {
+    font-weight: bold;
+  }
+  
+  .vacancy .responsibility {
+    font-style: italic;
+  }
+  
+  .vacancy .contacts {
+    font-size: 12px;
+    color: #999;
+    margin-top: 5px;
+  }
